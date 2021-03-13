@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ .header {
+    height: 50px;
+    background-color: #ff9a4b;
+    width: 0 auto;
+ }
+
+ .f-container {
+        display: flex;
+        justify-content: space-between;
+        width: 960px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+ }
+     
+ .f-box {
+        width: 300px;
+        margin-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        position: relative;
+        background-color: #EEEEEE;
+ }
+
+ .img1 {
+        background-image: url(img/flow01.png);
+        height: 150px;
+        background-position: bottom;
+        background-size: cover;
+ }
+
+ .img2 {
+     background-image: url(img/flow02.png);
+     height: 150px;
+     background-position: bottom;
+     background-size: cover;
+ }
+
+ .img3 {
+     background-image: url(img/flow03.png);
+     height: 150px;
+     background-position: bottom;
+     background-size: cover;
+ }
+
+ .heading {
+     margin-top: 15px;
+     margin-bottom: 5px;
+ }
+
+ .step {
+     padding: 3px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color: #ff9a4b;
+     color: #FFF;
+ }
+
+ .footer {
+       width: 0 auto;
+       height: 50px;
+       background-color: #AAAAAA;
+       margin-top: 50px;
+ }
+
+ @media(max-width:768px) {
+     .f-container {
+         display: block;
+         width: 100%;
+     }
+    
+    .f-box {
+         width: 90%;
+         text-align: left;
+         margin: 0 auto;
+         margin-top: 20px;
+     }
+
+     .f-box :last-child {
+         margin-bottom: 50px;
+     }
+
+     .header {
+         width: 100%;
+     }
+
+     .footer {
+         width: 100%;
+     }
+
+     
+     }
